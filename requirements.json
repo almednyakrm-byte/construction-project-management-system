@@ -1,0 +1,47 @@
+{
+  "project_name": "نظام إدارة مشاريع البناء",
+  "project_type": "project_management",
+  "color_palette": "gray-500 and orange-500",
+  "modules": [
+    "projects",
+    "resources",
+    "costs",
+    "schedules"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_projects",
+    "create_project",
+    "project_details",
+    "resource_allocation",
+    "cost_management",
+    "schedule_timeline"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register"
+    ],
+    "user": [
+      "index",
+      "list_projects",
+      "project_details",
+      "resource_allocation",
+      "cost_management",
+      "schedule_timeline"
+    ],
+    "admin": [
+      "index",
+      "list_projects",
+      "create_project",
+      "project_details",
+      "resource_allocation",
+      "cost_management",
+      "schedule_timeline",
+      "user_management"
+    ]
+  }
+}
